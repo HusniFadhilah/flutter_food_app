@@ -13,5 +13,3 @@ while ($row = mysqli_fetch_assoc($queryResult)) {
 }
 
 echo json_encode($result);
-
-echo "Husni";
